@@ -43,7 +43,7 @@ if __name__ == '__main__':
     font_size = 40
     font_color = 'white'
     font_file = "SIMHEI.TTF"
-    words = "中新赛克"
+    words = "字节跳动"
     back_rbg = pic_back_rgbs[random.randint(0, len(pic_back_rgbs) - 1)]
     img = getimage(words, pic_size, back_rbg, font_size, font_color, font_file)
     imgByteArr = io.BytesIO()
