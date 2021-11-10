@@ -7,3 +7,4 @@
 | 2 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%9E%84%E5%BB%BA%E5%89%8D%E7%BC%80%E6%A0%91.py">src/构建前缀树.py</a>  | 构建前缀树以查询 |
 | 3 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%AF%BB%E5%8F%96docx%E3%80%81pdf%E6%96%87%E4%BB%B6.py">src/读取docx、pdf文件.py</a> | 读取docx、pdf文件 |
 | 4 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/models/transformers.py">src/models/transformers.py</a> | transformers模型 |
+| 5 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/base64%E8%BD%AC%E5%9B%BE%E7%89%87%E5%B9%B6%E5%8E%8B%E7%BC%A9.py">src/base64转图片并压缩.py</a> | base64转图片并压缩 |
