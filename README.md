@@ -10,3 +10,4 @@
 | 5 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/base64%E8%BD%AC%E5%9B%BE%E7%89%87%E5%B9%B6%E5%8E%8B%E7%BC%A9.py">src/base64转图片并压缩.py</a> | base64转图片并压缩 |
 | 5 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E7%94%9F%E6%88%90%E5%85%AC%E5%8F%B8logo.py">src/生成公司logo.py</a> | 生成公司logo |
 | 6 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/elasticsearch/python%E6%93%8D%E4%BD%9Celasticsearch.pyy">src/elasticsearch/python操作elasticsearch.py</a> | python操作elasticsearch |
+| 7 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%A3%85%E9%A5%B0%E5%99%A8%E5%B0%81%E8%A3%85try-except.py">src/装饰器封装try-except.py</a> | 装饰器封装try-except |
