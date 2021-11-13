@@ -11,3 +11,4 @@
 | 5 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E7%94%9F%E6%88%90%E5%85%AC%E5%8F%B8logo.py">src/生成公司logo.py</a> | 生成公司logo |
 | 6 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/elasticsearch/python%E6%93%8D%E4%BD%9Celasticsearch.py">src/elasticsearch/python操作elasticsearch.py</a> | python操作elasticsearch |
 | 7 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%A3%85%E9%A5%B0%E5%99%A8%E5%B0%81%E8%A3%85try-except.py">src/装饰器封装try-except.py</a> | 装饰器封装try-except |
+| 8 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E6%98%AF%E5%90%A6%E6%98%AF%E4%B8%AD%E6%96%87%E3%80%81%E8%8B%B1%E6%96%87%E3%80%81%E6%95%B0%E5%AD%97.py">src/判断字符是否是中文、英文、数字.py y</a> | 判断字符是否是中文、英文、数字 |
