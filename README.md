@@ -13,5 +13,7 @@
 | 8 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%A3%85%E9%A5%B0%E5%99%A8%E5%B0%81%E8%A3%85try-except.py">src/装饰器封装try-except.py</a> | 装饰器封装try-except |
 | 9 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E6%98%AF%E5%90%A6%E6%98%AF%E4%B8%AD%E6%96%87%E3%80%81%E8%8B%B1%E6%96%87%E3%80%81%E6%95%B0%E5%AD%97.py">src/判断字符是否是中文、英文、数字.py</a> | 判断字符是否是中文、英文、数字 |
 | 10 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%9B%B8%E5%85%B3">src/多进程多线程</a> | 多进程多线程 |
+| 11 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%89%93%E5%8D%B0%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E8%A3%85%E9%A5%B0%E5%99%A8.py">src/打印运行时间装饰器</a> | 打印函数的运行时间|
+
 
 
