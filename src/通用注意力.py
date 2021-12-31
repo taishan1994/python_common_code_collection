@@ -106,3 +106,11 @@ class NoQueryAttention(Attention):
         mb_size = k.shape[0]
         q = self.q.expand(mb_size, -1, -1)
         return super(NoQueryAttention, self).forward(k, q)
+    
+# 使用方式
+# attention = NoQueryAttention(config.hidden_size, score_function='bi_linear')
+# output是网络的输出，格式为[batchsize, max_seq_len, hidden_size]
+# _, score = self.attention(output)
+# output = torch.squeeze(torch.bmm(score, output), dim=1)
+# output = dropout(output)
+# logits = classifier(output)
