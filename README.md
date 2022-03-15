@@ -15,6 +15,8 @@
 | 10 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%A4%9A%E8%BF%9B%E7%A8%8B%E7%9B%B8%E5%85%B3">src/多进程多线程</a> | 多进程多线程 |
 | 11 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%89%93%E5%8D%B0%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E8%A3%85%E9%A5%B0%E5%99%A8.py">src/打印运行时间装饰器</a> | 打印函数的运行时间|
 | 12 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E9%80%9A%E7%94%A8%E6%B3%A8%E6%84%8F%E5%8A%9B.py">src/通用注意力.py</a> | 通用的注意力|
+| 13 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/tokenization">src/tokenization/</a> | 转换命名实体识别标签|
+
 
 
 
