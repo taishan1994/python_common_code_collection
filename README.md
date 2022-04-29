@@ -21,4 +21,6 @@
 | 16 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%A0%B9%E6%8D%AE%E5%9C%B0%E5%9D%80%E6%8F%90%E5%8F%96%E7%9C%81-%E5%B8%82-%E5%8C%BA-%E8%A1%97%E9%81%93.py">src/根据地址获取省-市-区-街道.py</a> | 根据地址获取省-市-区-街道|
 | 17 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%8E%B7%E5%8F%96%E5%A4%A9%E6%B0%94%E4%BF%A1%E6%81%AF.py">src/获取天气信息.py</a> | 获取天气信息|
 | 18 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/判断是否是工作日.py">src/判断是否是工作日.py</a> | 判断是否是工作日|
+| 19 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%88%86%E8%AF%8D.py">src/多进程分词.py</a> | 多进程分词|
+
 
