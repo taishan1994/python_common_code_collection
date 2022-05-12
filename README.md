@@ -22,6 +22,6 @@
 | 17 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%8E%B7%E5%8F%96%E5%A4%A9%E6%B0%94%E4%BF%A1%E6%81%AF.py">src/获取天气信息.py</a> | 获取天气信息|
 | 18 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/判断是否是工作日.py">src/判断是否是工作日.py</a> | 判断是否是工作日|
 | 19 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%88%86%E8%AF%8D.py">src/多进程分词.py</a> | 多进程分词|
-| 20 | <a href="https://github.com/Htring/HMM_NERy">隐马尔可夫模型</a> | 隐马尔可夫模型|
+| 20 | <a href="https://github.com/Htring/HMM_NER">隐马尔可夫模型</a> | 隐马尔可夫模型|
 
 
