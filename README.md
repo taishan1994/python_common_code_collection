@@ -23,5 +23,6 @@
 | 18 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/判断是否是工作日.py">src/判断是否是工作日.py</a> | 判断是否是工作日|
 | 19 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E5%88%86%E8%AF%8D.py">src/多进程分词.py</a> | 多进程分词|
 | 20 | <a href="https://github.com/Htring/HMM_NER">隐马尔可夫模型</a> | 隐马尔可夫模型|
-| 21 | <a href="https://github.com/kmkurn/pytorch-crf/blob/master/torchcrf/__init__.py">条件随机场</a> | 条件随机场|
+| 21 | <a href="https://github.com/kmkurn/pytorch-crf/blob/master/torchcrf">条件随机场</a> | 条件随机场|
+| 22 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%89%93%E5%8D%B0%E7%B1%BB%E7%9A%84%E5%B1%9E%E6%80%A7.py">打印类的属性</a> | 打印类的属性|
 
