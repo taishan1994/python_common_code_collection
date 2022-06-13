@@ -25,4 +25,4 @@
 | 20 | <a href="https://github.com/Htring/HMM_NER">隐马尔可夫模型</a> | 隐马尔可夫模型|
 | 21 | <a href="https://github.com/kmkurn/pytorch-crf/blob/master/torchcrf">条件随机场</a> | 条件随机场|
 | 22 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%89%93%E5%8D%B0%E7%B1%BB%E7%9A%84%E5%B1%9E%E6%80%A7.py">src/打印类的属性</a> | 打印类的属性|
-
+| 23 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/SpatialDropout1D.py">src/SpatialDropout1D</a> | SpatialDropout1D |
