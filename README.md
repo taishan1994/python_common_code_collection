@@ -26,3 +26,4 @@
 | 21 | <a href="https://github.com/kmkurn/pytorch-crf/blob/master/torchcrf">条件随机场</a> | 条件随机场|
 | 22 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%89%93%E5%8D%B0%E7%B1%BB%E7%9A%84%E5%B1%9E%E6%80%A7.py">src/打印类的属性</a> | 打印类的属性|
 | 23 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/SpatialDropout1D.py">src/SpatialDropout1D</a> | SpatialDropout1D |
+| 24 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F">src/设计模式</a> | 设计模式 |
