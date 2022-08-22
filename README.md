@@ -29,4 +29,5 @@
 | 24 | <a href="https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F">src/设计模式</a> | 设计模式 |
 | 25 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%9F%BA%E4%BA%8E%E5%89%8D%E7%BC%80%E6%A0%91%E7%9A%84%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB.py">src/基于前缀树+字典的实体识别</a> | 实体识别 |
 | 26 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%93%8D%E4%BD%9Cmysql.py">src/python操作mysql</a> | python操作mysql |
+| 27 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/baidu_uie.py">src/baidu_uie.py</a> | 百度UIE信息抽取 |
 
