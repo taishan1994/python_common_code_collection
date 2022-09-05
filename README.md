@@ -31,3 +31,4 @@
 | 26 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%93%8D%E4%BD%9Cmysql.py">src/python操作mysql</a> | python操作mysql |
 | 27 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/baidu_uie.py">src/baidu_uie.py</a> | 百度UIE信息抽取 |
 | 28 | <a href="https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%8A%A0%E8%BD%BD%E8%AF%8D%E5%90%91%E9%87%8F.py">src/加载词向量.py</a> | 加载词向量 |
+| 29 | [src/词汇增强.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%AF%8D%E6%B1%87%E5%A2%9E%E5%BC%BA.py) | 词汇增强 |
