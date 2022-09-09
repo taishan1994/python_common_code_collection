@@ -34,4 +34,4 @@
 | 29 | [src/词汇增强.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%AF%8D%E6%B1%87%E5%A2%9E%E5%BC%BA.py) | 词汇增强 |
 | 30 | [src/文本相似度](https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6) | 文本相似度 |
 | 31 | [src/模型部署](https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2) | 模型部署 |
-| 32 | [src/python常用库小例子]((https://github.com/taishan1994/python_common_code_collection/blob/main/src/Python%E5%B8%B8%E7%94%A8%E5%BA%93%E5%B0%8F%E4%BE%8B%E5%AD%90.md) | python常用库小例子 |
+| 32 | [src/python常用库小例子](https://github.com/taishan1994/python_common_code_collection/blob/main/src/Python%E5%B8%B8%E7%94%A8%E5%BA%93%E5%B0%8F%E4%BE%8B%E5%AD%90.md) | python常用库小例子 |
