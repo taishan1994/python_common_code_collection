@@ -35,3 +35,4 @@
 | 30 | [src/文本相似度](https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6) | 文本相似度 |
 | 31 | [src/模型部署](https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2) | 模型部署 |
 | 32 | [src/python常用库小例子](https://github.com/taishan1994/python_common_code_collection/blob/main/src/Python%E5%B8%B8%E7%94%A8%E5%BA%93%E5%B0%8F%E4%BE%8B%E5%AD%90.md) | python常用库小例子 |
+| 33 | [src/中英文混合实体识别数据预处理.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%B8%AD%E8%8B%B1%E6%B7%B7%E5%90%88%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86.py) | 中英文混合实体识别数据预处理 |
