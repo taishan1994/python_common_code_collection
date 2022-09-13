@@ -1,6 +1,7 @@
 import jieba
 import json
 from collections import Counter
+import numpy as np
 
 save_path = "word2id.json"
 
@@ -13,7 +14,7 @@ def get_words(texts, save_path, words_num=10000):
   words = []
   word2id = {}
   for text in texts:
-    word = jieb.lcut(text, cut_all=False)
+    word = jieba.lcut(text, cut_all=False)
     words.extend(word)
   words = Counter(words)
   words = sorted(words.items(), key=lambda x:x[1], reverse=True)
