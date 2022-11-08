@@ -38,5 +38,4 @@
 | 33 | [src/中英文混合实体识别数据预处理.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%B8%AD%E8%8B%B1%E6%B7%B7%E5%90%88%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB%E6%95%B0%E6%8D%AE%E9%A2%84%E5%A4%84%E7%90%86.py) | 中英文混合实体识别数据预处理 |
 | 34 | [src/lcs.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/lcs.py) | 最长公共子串和最长公共子序列 |
 | 35 | [src/中文分句3.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%B8%AD%E6%96%87%E5%88%86%E5%8F%A53.py) | 中文分句3 |
-| 36 | [src/提取qq、微信、支付宝.py](| 35 | [src/中文分句3.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%B8%AD%E6%96%87%E5%88%86%E5%8F%A53.py) | 中文分句3 |
-) | 提取qq、微信、支付宝 |
+| 36 | [src/提取qq、微信、支付宝.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%B8%AD%E6%96%87%E5%88%86%E5%8F%A53.py) | 提取qq、微信、支付宝 |
