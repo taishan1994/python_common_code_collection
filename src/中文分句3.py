@@ -1,3 +1,5 @@
+import re
+
 def cut_sentences_main(text, max_seq_len):
     if len(text) <= max_seq_len:
         return [text]
