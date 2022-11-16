@@ -40,4 +40,4 @@
 | 35 | [src/中文分句3.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%B8%AD%E6%96%87%E5%88%86%E5%8F%A53.py) | 中文分句3 |
 | 36 | [src/提取qq、微信、支付宝.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%8F%90%E5%8F%96qq%E3%80%81%E5%BE%AE%E4%BF%A1%E3%80%81%E6%94%AF%E4%BB%98%E5%AE%9D.py) | 提取qq、微信、支付宝 |
 | 37 | [src/提取车牌号.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%8F%90%E5%8F%96%E8%BD%A6%E7%89%8C%E5%8F%B7.py) | 提取车牌号 |
-
+| 38 | [src/loguru打印日志.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/loguru%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97.py) | loguru打印日志 |
