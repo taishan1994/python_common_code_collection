@@ -6,7 +6,7 @@
 
 可以去这两个地方下载：
 
-https://ai.tencent.com/ailab/nlp/en/download.html
+https://ai.tencent.com/ailab/nlp/en/download.html <br>
 https://github.com/cliuxinxin/TX-WORD2VEC-SMALL
 
 这里使用的是腾讯词向量的100000-small.txt
