@@ -76,3 +76,42 @@ index.query("""NBA季后赛西部决赛，快船与太阳移师洛杉矶展开�
  ```python
  pip install xpinyin
  ```
+
+#### cachetools
+```python
+from cachetools import cached, LRUCache
+import time
+
+# cache using LRUCache
+@cached(cache = LRUCache(maxsize = 3))
+def myfun(n):
+
+    # This delay resembles some task
+    s = time.time()
+    time.sleep(n)
+    print("\nTime Taken: ", time.time() - s)
+    return (f"I am executed: {n}")
+
+# Takes 3 seconds
+print(myfun(3))
+
+# Takes no time
+print(myfun(3))
+
+# Takes 2 seconds
+print(myfun(2))
+
+# Takes 1 second
+print(myfun(1))
+
+# Takes 4 seconds
+print(myfun(4))
+
+# Takes no time
+print(myfun(1))
+
+# Takes 3 seconds because maxsize = 3 
+# and the 3 recent used functions had 1,
+# 2 and 4.
+print(myfun(3))
+```
