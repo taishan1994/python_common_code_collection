@@ -42,4 +42,4 @@
 | 37 | [src/提取车牌号.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%8F%90%E5%8F%96%E8%BD%A6%E7%89%8C%E5%8F%B7.py) | 提取车牌号 |
 | 38 | [src/loguru打印日志.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/loguru%E6%89%93%E5%8D%B0%E6%97%A5%E5%BF%97.py) | loguru打印日志 |
 | 39 | [src/test_flask/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/test_flask) | gunicorn+gevent+flask部署 |
-| 40 | [src/计算词向量间的相似度/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E8%AE%A1%E7%AE%97%E8%AF%8D%E5%90%91%E9%87%8F%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BC%BC%E5%BA%A6) | 计算词向量间的相似度 |
+| 40 | [src/计算词向量间的相似度/]() |  |
