@@ -1,3 +1,6 @@
+# coding=utf-8
+import re
+
 """
 该文件用于提取车牌，车牌的一般格式:
 第一位:各省、直辖市、自治区的简称
@@ -102,22 +105,28 @@ province2simple = {
 simple2province = {k: j for j, k in province2simple.items()}
 
 # province = "京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼"
-patterns = [
-    "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-]*[0-9A-Z]{4}[0-9A-Z港澳挂领学警]{1}(?!\d)",
-    "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-]*[0-9A-Z]{6}",  # 新能源车
-]
+pattern1 = "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-]*[0-9A-Z]{6}"  # 新能源车
+pattern2 = "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-]*[0-9A-Z]{4}[0-9A-Z港澳挂领学警]{1}(?!\d)"
+  
 
 
 def extract_plate(text):
     res = []
-    for pattern in patterns:
-        items = re.finditer(pattern, text)
-        if items:
-            for item in items:
-                start = item.start()
-                end = item.end()
-                text = text[start:end]
-                res.append(text)
+    items1 = re.finditer(pattern1, text)
+    if items1:
+        for item in items1:
+            start = item.start()
+            end = item.end()
+            ent = text[start:end]
+            text = re.sub(ent, "@"*len(ent), text)
+            res.append(text)
+    items2 = re.finditer(pattern2, text)
+    if items1:
+        for item in items2:
+            start = item.start()
+            end = item.end()
+            ent = text[start:end]
+            res.append(text)
     res = list(set(res))
     return res
 
