@@ -105,8 +105,8 @@ province2simple = {
 simple2province = {k: j for j, k in province2simple.items()}
 
 # province = "京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼"
-pattern1 = "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-]*[0-9A-Z]{6}"  # 新能源车
-pattern2 = "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-]*[0-9A-Z]{4}[0-9A-Z港澳挂领学警]{1}(?!\d)"
+pattern1 = "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-，, 、.]*[0-9A-Z]{6}"  # 新能源车
+pattern2 = "[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁台琼]{1}[A-Z]{1}[-，, 、.]*[0-9A-Z]{4}[0-9A-Z港澳挂领学警]{1}(?!\d)"
   
 
 
@@ -119,7 +119,7 @@ def extract_plate(text):
             end = item.end()
             ent = text[start:end]
             text = re.sub(ent, "@"*len(ent), text)
-            res.append(text)
+            res.append(ent)
     items2 = re.finditer(pattern2, text)
     if items1:
         for item in items2:
@@ -127,7 +127,7 @@ def extract_plate(text):
             end = item.end()
             ent = text[start:end]
             res.append(text)
-    res = list(set(res))
+    res = list(set(ent))
     return res
 
 
