@@ -45,4 +45,4 @@
 | 40 | [src/计算词向量间的相似度/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/%E8%AE%A1%E7%AE%97%E8%AF%8D%E5%90%91%E9%87%8F%E9%97%B4%E7%9A%84%E7%9B%B8%E4%BC%BC%E5%BA%A6) | 计算词向量间的相似度 |
 | 41 | [src/BM25/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/BM25) | 使用BM25进行检索 |
 | 42 | [src/losses/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/losses) | 常用损失函数，目前包含focal_loss |
-
+| 43 | [src/mask/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/mask) | 常用mask的代码 |
