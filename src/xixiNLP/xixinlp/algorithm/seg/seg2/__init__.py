@@ -1,0 +1,1 @@
+from .segment2 import seg_jieba2
