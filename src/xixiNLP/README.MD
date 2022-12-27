@@ -2,8 +2,6 @@ python项目的一个基本架构，主要是能够在xixinlp的同级目录下�
 
 ```python
 # coding="utf-8"
-import sys
-sys.path.append("..")
 import xixinlp as xixi
 
 text = "北京市长江大桥"
