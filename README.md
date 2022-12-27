@@ -46,3 +46,5 @@
 | 41 | [src/BM25/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/BM25) | 使用BM25进行检索 |
 | 42 | [src/losses/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/losses) | 常用损失函数，目前包含focal_loss |
 | 43 | [src/mask/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/mask) | 常用mask的代码 |
+| 44 | [src/xixiNLP/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/xixiNLP) | 一个python项目的基本架构 |
+
