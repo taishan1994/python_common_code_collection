@@ -1,0 +1,13 @@
+2022-11-16 16:21:52.823 | INFO     | __mp_main__:task2:34 - MainThread
+2022-11-16 16:21:54.824 | INFO     | __mp_main__:task1:28 - MainThread
+2022-11-16 16:21:54.824 | INFO     | __main__:<module>:51 - 5
+2022-11-16 16:21:54.824 | INFO     | __main__:<module>:52 - 3
+2022-11-16 16:21:54.864 | INFO     | __main__:<module>:55 - 耗时：5.360519647598267s
+2022-12-28 14:59:56.203 | INFO     | __main__:test_post:24 - 今天天气不错
+2022-12-28 15:16:19.101 | INFO     | __main__:test_post:36 - division by zero
+2022-12-28 15:17:01.919 | ERROR    | __main__:test_post:37 - {'code': 500, 'message': '错误!division by zero', 'data': []}
+2022-12-28 15:19:46.034 | ERROR    | __main__:test_post:42 - Traceback (most recent call last):
+  File "D:/flow/test.py", line 36, in test_post
+    c = 1/0
+ZeroDivisionError: division by zero
+
