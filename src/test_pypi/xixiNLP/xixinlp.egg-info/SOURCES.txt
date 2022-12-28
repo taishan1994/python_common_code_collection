@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+xixinlp.egg-info/PKG-INFO
+xixinlp.egg-info/SOURCES.txt
+xixinlp.egg-info/dependency_links.txt
+xixinlp.egg-info/top_level.txt
