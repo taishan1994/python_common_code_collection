@@ -1,0 +1,1 @@
+wrk -t 2 -c 128 -d 20s --timeout=10s --latency -s benchmark.lua http://0.0.0.0:5000/ner

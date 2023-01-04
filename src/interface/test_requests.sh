@@ -1,0 +1,1 @@
+curl -X POST 'http://127.0.0.1:5000/ner' -H 'Content-Type:application/json' -d '{"text":"江苏警方通报特斯拉冲进店铺"}'

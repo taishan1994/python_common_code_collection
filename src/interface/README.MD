@@ -1,0 +1,4 @@
+- 使用flask部署接口
+- 使用shell脚本启动、停止、重启服务
+- 使用wrk进行接口性能测试
+- 使用service_streamer加速GPU推理

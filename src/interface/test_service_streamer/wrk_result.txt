@@ -1,0 +1,63 @@
+使用GPU：
+Running 20s test @ http://0.0.0.0:5000/fill_mask
+  2 threads and 128 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   157.48ms   34.26ms 449.73ms   88.98%
+    Req/Sec   410.75    170.91   646.00     61.07%
+  Latency Distribution
+     50%  141.72ms
+     75%  174.16ms
+     90%  193.36ms
+     99%  312.69ms
+  16242 requests in 20.04s, 5.51MB read
+  Non-2xx or 3xx responses: 16242
+Requests/sec:    810.58
+Transfer/sec:    281.80KB
+
+使用GPU+service_streamer
+Running 20s test @ http://0.0.0.0:5000/fill_mask
+  2 threads and 128 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   141.28ms   11.83ms 219.79ms   89.87%
+    Req/Sec   453.20     43.64   550.00     73.75%
+  Latency Distribution
+     50%  138.63ms
+     75%  143.27ms
+     90%  150.38ms
+     99%  183.38ms
+  18062 requests in 20.04s, 6.13MB read
+  Non-2xx or 3xx responses: 18062
+Requests/sec:    901.16
+Transfer/sec:    313.29KB
+
+使用GPU+service_streamer并设置worker_num
+Running 20s test @ http://0.0.0.0:5000/fill_mask
+  2 threads and 128 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   139.62ms   11.62ms 228.78ms   92.30%
+    Req/Sec   458.76     87.25   640.00     63.25%
+  Latency Distribution
+     50%  137.58ms
+     75%  142.33ms
+     90%  148.93ms
+     99%  182.57ms
+  18287 requests in 20.04s, 6.21MB read
+  Non-2xx or 3xx responses: 18287
+Requests/sec:    912.62
+Transfer/sec:    317.28KB
+
+使用GPU++service_streamer并设置worker_num+ManagedBertModel
+Running 20s test @ http://0.0.0.0:5000/fill_mask
+  2 threads and 128 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   138.54ms    8.78ms 168.97ms   89.18%
+    Req/Sec   462.18     82.02   646.00     64.00%
+  Latency Distribution
+     50%  137.46ms
+     75%  141.51ms
+     90%  147.06ms
+     99%  161.07ms
+  18418 requests in 20.03s, 6.25MB read
+  Non-2xx or 3xx responses: 18418
+Requests/sec:    919.60
+Transfer/sec:    319.71KB

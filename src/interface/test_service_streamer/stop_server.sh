@@ -1,0 +1,1 @@
+ps -ef|grep "server.py --host 0.0.0.0"|grep -v grep|awk '{print $2}'|xargs kill -9 

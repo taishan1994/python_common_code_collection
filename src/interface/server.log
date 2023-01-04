@@ -1,0 +1,44 @@
+ * Serving Flask app "server" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:service_streamer.service_streamer:[gpu worker 26972] <service_streamer.service_streamer.ThreadedWorker object at 0x7f8b2fb73880> start working
+INFO:service_streamer.service_streamer:start _loop_collect_result
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Exception in thread thread_worker:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/service_streamer/service_streamer.py", line 154, in run_forever
+    handled = self._run_once()
+  File "/usr/local/lib/python3.8/dist-packages/service_streamer/service_streamer.py", line 189, in _run_once
+    self._send_response(client_id, task_id, request_id, model_outputs[i])
+KeyError: 0
+ERROR:server:Exception on /ner [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "server.py", line 72, in get_ner_result
+    result = streamModel.predict(text)
+  File "/usr/local/lib/python3.8/dist-packages/service_streamer/service_streamer.py", line 132, in predict
+    ret = self._output(task_id)
+  File "/usr/local/lib/python3.8/dist-packages/service_streamer/service_streamer.py", line 122, in _output
+    batch_result = future.result(WORKER_TIMEOUT)
+  File "/usr/local/lib/python3.8/dist-packages/service_streamer/service_streamer.py", line 41, in result
+    raise TimeoutError("Task: %d Timeout" % self._id)
+TimeoutError: Task: 0 Timeout
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2023 06:56:00] "[35m[1mPOST /ner HTTP/1.1[0m" 500 -

@@ -1,0 +1,32 @@
+使用CPU：
+Running 20s test @ http://0.0.0.0:5000/ner （压测时间20s）
+  2 threads and 128 connections （共2个测试线程，128个连接）
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+          （平均值）  （标准差） （最大值） （正负一个标准差所占比例）
+    Latency   207.13ms   43.69ms 428.20ms   84.47% 表示完全执行一个指令所需的时钟周期
+    Req/Sec   315.66    193.23   640.00     55.76% 处理中的请求数
+  Latency Distribution
+     50%  191.71ms
+     75%  208.14ms
+     90%  276.01ms
+     99%  363.13ms
+  12308 requests in 20.03s, 4.18MB read （20.03秒内共处理完成了12308个请求，读取了4.18MB数据）
+  Non-2xx or 3xx responses: 12308
+Requests/sec:    614.36 （平均每秒处理完成614.36个请求）
+Transfer/sec:    213.59KB （平均每秒读取数据213.59KB）
+
+使用GPU：
+Running 20s test @ http://0.0.0.0:5000/ner
+  2 threads and 128 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency   136.01ms    8.12ms 167.30ms   89.31%
+    Req/Sec   471.02    136.37   646.00     47.50%
+  Latency Distribution
+     50%  135.23ms
+     75%  138.46ms
+     90%  143.46ms
+     99%  156.15ms
+  18769 requests in 20.03s, 6.37MB read
+  Non-2xx or 3xx responses: 18769
+Requests/sec:    937.07
+Transfer/sec:    325.78KB
