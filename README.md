@@ -49,4 +49,4 @@
 | 44 | [src/xixiNLP/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/xixiNLP) | 一个python项目的基本架构 |
 | 45 | [src/test_pypi/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/test_pypi/xixiNLP) | 打包自己的python库发布到pypi |
 | 46 | [src/test_fastapi/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/test_fastapi) | fastapi接口 |
-
+| 47 | [src/interface/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/interface) | wrk接口性能测试和service_steamer加速GPU推理 |
