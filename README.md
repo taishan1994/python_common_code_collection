@@ -50,3 +50,5 @@
 | 45 | [src/test_pypi/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/test_pypi/xixiNLP) | 打包自己的python库发布到pypi |
 | 46 | [src/test_fastapi/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/test_fastapi) | fastapi接口 |
 | 47 | [src/interface/](https://github.com/taishan1994/python_common_code_collection/tree/main/src/interface) | wrk接口性能测试和service_steamer加速GPU推理 |
+| 48 | [src/英文实体识别标签重整.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%8B%B1%E6%96%87%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB%E6%A0%87%E7%AD%BE%E9%87%8D%E6%95%B4.py) | 英文实体识别标签重整 |
+
