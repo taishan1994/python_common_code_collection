@@ -22,14 +22,17 @@ def align_label_example(input, tokenized_input, label, label2id, label_all_token
       j += 1
     else:
       tmp_word = tokenized_input[i]
-      tmp = []
       while i < len(tokenized_input) and "".join(tmp) != input[j]:
-        tmp_word = tokenized_input[i][2:] if tokenized_input[i][:2] == "##" else tokenized_input[i]
+        ori_word = tokenized_input[i]
+        tmp_word = ori_word[2:] if ori_word[:2] == "##" else ori_word
         tmp.append(tmp_word)
         if label[j] == "O":
           ids.append(label2id[label[j]])
         else:
-          ids.append(label2id[label[j]] if label_all_tokens else -100)
+          if "##" != ori_word[:2]:
+            ids.append(self.label2id[label[j]])
+          else:
+            ids.append(label2id[label[j]] if label_all_tokens else -100)
         # ids.append(label[j])
         i += 1
       j += 1
