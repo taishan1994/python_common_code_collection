@@ -35,6 +35,7 @@ def conver_labels_to_biolabels(labels):
 
 
 def align_label_example(ori_input, tokenized_input, label, label_all_tokens=False):
+    """这里目前label_all_tokens只能设置为True"""
     i, j = 0, 0
     ids = []
     # 这里需要遍历tokenizer后的列表
@@ -53,7 +54,10 @@ def align_label_example(ori_input, tokenized_input, label, label_all_tokens=Fals
                 ori_word = tokenized_input[i]
                 if ori_word[:2] == "##":
                     tmp.append(ori_word[2:])
-                    ids.append(label2id["I-"+label[j].split("-")[-1]] if label_all_tokens else -100)
+                    if label[j] == "O":
+                        ids.append(label2id[label[j]])
+                    else:
+                        ids.append(label2id["I-" + label[j].split("-")[-1]] if label_all_tokens else -100)
                 else:
                     if label[j] == "O":
                         ids.append(label2id[label[j]])
@@ -61,7 +65,7 @@ def align_label_example(ori_input, tokenized_input, label, label_all_tokens=Fals
                         if "O" == label[j]:
                             ids.append(label2id[label[j]])
                         else:
-                            ids.append(label2id["I-"+label[j].split("-")[-1]])
+                            ids.append(label2id["I-" + label[j].split("-")[-1]])
                     tmp.append(ori_word)
                     # ids.append(label[j])
                 i += 1
