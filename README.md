@@ -53,4 +53,5 @@
 | 48 | [src/英文实体识别标签重整.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%8B%B1%E6%96%87%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB%E6%A0%87%E7%AD%BE%E9%87%8D%E6%95%B4.py) | 英文实体识别标签重整 |
 | 49 | [src/使用拼音嵌入.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%BD%BF%E7%94%A8%E6%8B%BC%E9%9F%B3%E5%B5%8C%E5%85%A5.py) | 使用拼音嵌入 |
 | 50 | [src/使用字形嵌入.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%BD%A2%E5%B5%8C%E5%85%A5.py) | 使用字形嵌入 |
+| 51 | [src/根据字体生成汉字.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%A0%B9%E6%8D%AE%E5%AD%97%E4%BD%93%E7%94%9F%E6%88%90%E6%B1%89%E5%AD%97.py) | 根据字体生成汉字 |
 
