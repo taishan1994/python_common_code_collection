@@ -54,4 +54,4 @@
 | 49 | [src/使用拼音嵌入.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%BD%BF%E7%94%A8%E6%8B%BC%E9%9F%B3%E5%B5%8C%E5%85%A5.py) | 使用拼音嵌入 |
 | 50 | [src/使用字形嵌入.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E4%BD%BF%E7%94%A8%E5%AD%97%E5%BD%A2%E5%B5%8C%E5%85%A5.py) | 使用字形嵌入 |
 | 51 | [src/根据字体生成汉字.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%A0%B9%E6%8D%AE%E5%AD%97%E4%BD%93%E7%94%9F%E6%88%90%E6%B1%89%E5%AD%97.py) | 根据字体生成汉字 |
-
+| 52 | [src/捕获具体的异常信息.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%8D%95%E8%8E%B7%E5%85%B7%E4%BD%93%E7%9A%84%E5%BC%82%E5%B8%B8%E4%BF%A1%E6%81%AF.py) | 捕获具体的类型信息 |
