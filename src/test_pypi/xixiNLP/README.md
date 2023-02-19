@@ -13,7 +13,7 @@ cd xixiNLP
 python3 setup.py sdist bdist_wheel
 ```
 
-3、windwos下在C:\Users\Administrator，lindex系统在~/下新建一个.pypirc，里面驶入：
+3、windows下在C:\Users\Administrator，lindex系统在~/下新建一个.pypirc，里面驶入：
 ```python
 [distutils]
 index-servers=testpypi
