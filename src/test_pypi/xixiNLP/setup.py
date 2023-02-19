@@ -105,7 +105,11 @@ setup(
     url=URL,
     # packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     # If your package is a single module, use this instead of 'packages':
-    py_modules=['xixinlp'],
+    # py_modules=['xixinlp'],
+    packages=find_packages(),
+    # package_data={'spam': ['data.txt']},
+    # If your package is a single module, use this instead of 'packages':
+    py_modules=['test_seg'],
 
     # entry_points={
     #     'console_scripts': ['mycli=mymodule:cli'],
