@@ -61,4 +61,5 @@
 | 56 | [src/segment.py](https://github.com/taishan1994/python_common_code_collection/blob/main/src/segment.py) | 玩转分词 |
 | 57 | [chinese2digits.py](https://github.com/Wall-ee/chinese2digits/blob/master/Python/chinese2digits/chinese2digits.py) | 金额标准化为阿拉伯数字 |
 | 58 | [gradio基本实例](https://github.com/taishan1994/python_common_code_collection/blob/main/src/gradio%E5%9F%BA%E6%9C%AC%E5%AE%9E%E4%BE%8B.md) | gradio基本实例 |
+| 59 | [huggingface基本模块](https://github.com/taishan1994/python_common_code_collection/blob/main/src/huggingface) | [huggingface基本模块 |
 
