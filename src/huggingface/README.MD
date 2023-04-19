@@ -9,4 +9,6 @@ transformers==4.21.0
 > [Transformers, what can they do? - Hugging Face Course](https://huggingface.co/course/chapter1/3?fw=pt)
 >
 > [BERT (huggingface.co)](https://huggingface.co/docs/transformers/v4.28.1/en/model_doc/bert#resources)
+>
+> https://github.com/philschmid/deep-learning-pytorch-huggingface/
 
