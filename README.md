@@ -62,4 +62,5 @@
 | 57 | [chinese2digits.py](https://github.com/Wall-ee/chinese2digits/blob/master/Python/chinese2digits/chinese2digits.py) | 金额标准化为阿拉伯数字 |
 | 58 | [gradio基本实例](https://github.com/taishan1994/python_common_code_collection/blob/main/src/gradio%E5%9F%BA%E6%9C%AC%E5%AE%9E%E4%BE%8B.md) | gradio基本实例 |
 | 59 | [huggingface基本模块](https://github.com/taishan1994/python_common_code_collection/blob/main/src/huggingface) | huggingface基本模块 |
+| 60 | [stanza公司名实体识别](https://github.com/taishan1994/python_common_code_collection/blob/main/src/stanza%E8%BF%9B%E8%A1%8C%E5%85%AC%E5%8F%B8%E5%90%8D%E5%AE%9E%E4%BD%93%E8%AF%86%E5%88%AB.md) | stanza公司名实体识别 |
 
