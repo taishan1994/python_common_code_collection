@@ -2,5 +2,5 @@
 ## MySql
 ### 利用正则表达式查询
 ```sql
-select * from xxx where content REGEXP ""
+select * from xxx where content REGEXP "(淘宝|天猫|(?<![0-9])1688(?![0-9]))"
 ```
