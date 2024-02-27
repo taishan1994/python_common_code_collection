@@ -66,6 +66,7 @@
 | 70 | [sql相关](https://github.com/taishan1994/python_common_code_collection/blob/main/src/sql.md) | sql相关 |
 | 71 | [自定义argparse](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%87%AA%E5%AE%9A%E4%B9%89argparse.md) | 自定义argparse |
 | 72 | [生成手机号、MEI、IMSI、MAC](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E7%94%9F%E6%88%90%E6%89%8B%E6%9C%BA%E5%8F%B7%E3%80%81IMEI%E3%80%81IMSI%E3%80%81MAC.py) | 生成手机号、MEI、IMSI、MAC |
+| 73 | [数据加载](https://github.com/taishan1994/python_common_code_collection/tree/main/src/data_loader) | 数据加载 |
 
 
 
