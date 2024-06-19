@@ -67,6 +67,6 @@
 | 71 | [自定义argparse](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E8%87%AA%E5%AE%9A%E4%B9%89argparse.md) | 自定义argparse |
 | 72 | [生成手机号、MEI、IMSI、MAC](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E7%94%9F%E6%88%90%E6%89%8B%E6%9C%BA%E5%8F%B7%E3%80%81IMEI%E3%80%81IMSI%E3%80%81MAC.py) | 生成手机号、MEI、IMSI、MAC |
 | 73 | [数据加载](https://github.com/taishan1994/python_common_code_collection/tree/main/src/data_loader) | 数据加载 |
-| 74 | [校阅比对](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%A0%A1%E9%98%85%E6%AF%94%E5%AF%B9.py) | 校阅比对 | 
-
+| 74 | [校阅比对](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E6%A0%A1%E9%98%85%E6%AF%94%E5%AF%B9.py) | 校阅比对 |
+| 75 | [多进程调用websocket](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E8%B0%83%E7%94%A8websocket.py) | 多进程调用websocket |
 
