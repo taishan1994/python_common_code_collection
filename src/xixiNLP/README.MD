@@ -31,3 +31,4 @@ hello world
 """
 ```
 
+还可以参考：`https://github.com/roboflow/template-python`
