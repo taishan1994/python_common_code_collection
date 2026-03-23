@@ -30,3 +30,40 @@ npm i -g @openai/codex
 - 开启「为 Codex 启用设备码授权」（类似 wording）
 
 `codex login --device-auth`
+
+# 将codex转换为api供调用
+```shell
+curl -fsSL https://raw.githubusercontent.com/brokechubb/cliproxyapi-installer/refs/heads/master/cliproxyapi-installer | bash
+
+cd /root/cliproxyapi
+nano config.yaml
+
+```
+酌情修改：
+```yaml
+server:
+  host: 0.0.0.0
+  port: 8317  # API 端口（可改）
+
+management:
+  enabled: true
+  port: 39517  # 管理后台端口
+
+providers:
+  codex:
+    enabled: true
+
+api-keys:
+  - "sk-****************************************************"
+  - "sk-****************************************************"
+
+debug: false
+
+```
+```shell
+cd /root/cliproxyapi
+./cli-proxy-api --codex-device-login
+
+./cli-proxy-api
+```
+
