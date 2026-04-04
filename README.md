@@ -71,4 +71,5 @@
 | 75 | [多进程调用websocket](https://github.com/taishan1994/python_common_code_collection/blob/main/src/%E5%A4%9A%E8%BF%9B%E7%A8%8B%E8%B0%83%E7%94%A8websocket.py) | 多进程调用websocket |
 | 76 | [torch分布式推理](https://github.com/taishan1994/python_common_code_collection/blob/main/src/torch%E5%88%86%E5%B8%83%E5%BC%8F%E6%8E%A8%E7%90%86.py) | torch分布式推理 |
 | 77 | [linux下安装miniconda](https://github.com/taishan1994/python_common_code_collection/blob/main/src/install_miniconda.md) | linux下安装miniconda |
+| 77 | [codex的安装和使用](https://github.com/taishan1994/python_common_code_collection/blob/main/src/codex%E4%BD%BF%E7%94%A8.md) | codex的安装和使用|
 
