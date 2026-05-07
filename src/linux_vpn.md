@@ -22,6 +22,10 @@ gunzip -f "$TMP_GZ"
 chmod +x "$TARGET_BIN"
 ln -sf mihomo "$TARGET_LINK"
 
+ln -sf $TARGET_LINK /usr/local/bin/clash
+
+apt install iproute2
+
 echo
 "$TARGET_BIN" -v
 
@@ -30,6 +34,7 @@ echo "安装完成: $TARGET_BIN"
 echo "本地 clash 入口: $TARGET_LINK"
 ```
 # 2 启动clash
+start_clash.sh
 ```shell
 #!/usr/bin/env bash
 set -euo pipefail
@@ -338,15 +343,44 @@ esac
 ```
 
 # 启动codex
+clash_env.sh
+```shell
+#!/usr/bin/env bash
+# 用法: source /mnt/md0/gongoubo/pd_experiments/hta/config/clash_env.sh
+
+export CLASH_HTTP_PROXY="http://127.0.0.1:17890"
+export CLASH_HTTPS_PROXY="http://127.0.0.1:17890"
+export CLASH_ALL_PROXY="socks5://127.0.0.1:17891"
+export CLASH_MIXED_PROXY="http://127.0.0.1:17893"
+export CLASH_CONTROLLER="http://127.0.0.1:19090"
+
+export http_proxy="$CLASH_HTTP_PROXY"
+export https_proxy="$CLASH_HTTPS_PROXY"
+export all_proxy="$CLASH_ALL_PROXY"
+export HTTP_PROXY="$CLASH_HTTP_PROXY"
+export HTTPS_PROXY="$CLASH_HTTPS_PROXY"
+export ALL_PROXY="$CLASH_ALL_PROXY"
+export no_proxy="127.0.0.1,localhost,::1"
+export NO_PROXY="$no_proxy"
+
+echo "已设置代理环境变量:"
+echo "  HTTP_PROXY=$HTTP_PROXY"
+echo "  HTTPS_PROXY=$HTTPS_PROXY"
+echo "  ALL_PROXY=$ALL_PROXY"
+echo "  CLASH_CONTROLLER=$CLASH_CONTROLLER"
+echo "  NO_PROXY=$NO_PROXY"
+
+```
+
+start_codex.sh
 ```shell
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
-HTTP_PROXY_URL="http://127.0.0.1:7890"
-SOCKS_PROXY_URL="socks5://127.0.0.1:7891"
-START_SCRIPT="$ROOT_DIR/tools/clash/start_clash.sh"
-PID_FILE="$ROOT_DIR/tools/clash/run/clash.pid"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+START_SCRIPT="$SCRIPT_DIR/start_clash.sh"
+ENV_SCRIPT="$SCRIPT_DIR/clash_env.sh"
+PID_FILE="$SCRIPT_DIR/clash.pid"
 
 if ! command -v codex >/dev/null 2>&1; then
   echo "未找到 codex 命令，请先安装 Codex CLI" >&2
@@ -354,15 +388,12 @@ if ! command -v codex >/dev/null 2>&1; then
 fi
 
 if [[ ! -f "$PID_FILE" ]] || ! kill -0 "$(cat "$PID_FILE")" 2>/dev/null; then
-  "$START_SCRIPT"
+  "$START_SCRIPT" start
 fi
 
-export HTTP_PROXY="$HTTP_PROXY_URL"
-export HTTPS_PROXY="$HTTP_PROXY_URL"
-export ALL_PROXY="$SOCKS_PROXY_URL"
-export NO_PROXY="localhost,127.0.0.1,::1"
+# shellcheck disable=SC1090
+source "$ENV_SCRIPT"
 
-echo "Codex 将通过 HTTP_PROXY=$HTTP_PROXY 和 ALL_PROXY=$ALL_PROXY 访问网络"
-exec codex "$@"
-~                   
+echo "Codex 将通过 Clash 代理访问网络"
+exec codex "$@"                 
 ```
