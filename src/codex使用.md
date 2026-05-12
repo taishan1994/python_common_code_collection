@@ -17,6 +17,11 @@ npm -v
 
 # 安装 codex
 npm i -g @openai/codex
+
+# 或者离线安装
+wget https://github.com/openai/codex/releases/download/rust-v0.131.0-alpha.9/codex-x86_64-unknown-linux-musl.tar.gz
+tar -zxvf codex-x86_64-unknown-linux-musl.tar.gz
+ln -sf codex-x86_64-unknown-linux-musl /usr/local/bin/codex
 ```
 
 使用虚拟手机号注册一个openai账号并登录chatgpt。
