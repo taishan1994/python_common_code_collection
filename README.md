@@ -73,4 +73,5 @@
 | 77 | [linux下安装miniconda](https://github.com/taishan1994/python_common_code_collection/blob/main/src/install_miniconda.md) | linux下安装miniconda |
 | 78 | [codex的安装和使用](https://github.com/taishan1994/python_common_code_collection/blob/main/src/codex%E4%BD%BF%E7%94%A8.md) | codex的安装和使用|
 | 79 | [linux下使用vpn](https://github.com/taishan1994/python_common_code_collection/blob/main/src/linux_vpn.md) | linux下使用vpn | 
+| 80 | [chatgpt网页版复制内容](https://github.com/taishan1994/python_common_code_collection/edit/main/src/chatgpt%E7%BD%91%E9%A1%B5%E5%B8%AE%E5%86%85%E5%AE%B9%E5%A4%8D%E5%88%B6.md) | chatgpt网页版复制内容 |
 
