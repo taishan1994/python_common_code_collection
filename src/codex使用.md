@@ -72,3 +72,20 @@ cd /root/cliproxyapi
 ./cli-proxy-api
 ```
 
+# 在线安装
+```
+# 安装 nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# 重启终端或执行以下命令使配置生效
+source ~/.bashrc   # 或 source ~/.zshrc
+
+# 安装最新 LTS 版本的 Node.js（自带 npm）
+nvm install --lts
+
+# 验证
+node -v
+npm -v
+
+npm install -g @openai/codex
+```
